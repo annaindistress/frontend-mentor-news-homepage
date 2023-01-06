@@ -1,3 +1,20 @@
 /* Fonts */
 
 @import './fonts.css';
+
+/* Components */
+
+@import './components/box-sizing.css';
+@import './components/visually-hidden.css';
+@import './components/page.css';
+@import './components/more.css';
+
+/* Variables */
+
+:root {
+  --almost-white: hsl(36, 100%, 99%);
+  --silver: hsl(233, 8%, 79%);
+  --gunmetal: hsl(236, 13%, 42%);
+  --dark-space-blue: hsl(240, 100%, 5%);
+  --light-vermillion: hsl(5, 85%, 63%);
+}
