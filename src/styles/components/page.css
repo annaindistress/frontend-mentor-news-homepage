@@ -11,23 +11,27 @@
   max-width: 730px;
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 80px;
 }
 
 .page__container {
   display: grid;
   gap: 64px;
   margin-bottom: 64px;
+  padding: 0 16px;
 }
 
 @media (min-width: 1200px) {
 
   .page__main {
     max-width: 1110px;
+    padding-bottom: 0;
   }
 
   .page__container {
     grid-template-columns: 1fr 350px;
     gap: 30px;
     margin-bottom: 70px;
+    padding: 0;
   }
 }
