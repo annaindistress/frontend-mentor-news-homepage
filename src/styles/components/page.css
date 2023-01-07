@@ -13,9 +13,21 @@
   margin: 0 auto;
 }
 
+.page__container {
+  display: grid;
+  gap: 64px;
+  margin-bottom: 64px;
+}
+
 @media (min-width: 1200px) {
 
   .page__main {
     max-width: 1110px;
+  }
+
+  .page__container {
+    grid-template-columns: 1fr 350px;
+    gap: 30px;
+    margin-bottom: 70px;
   }
 }
