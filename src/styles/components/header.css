@@ -26,4 +26,9 @@
     max-width: 1110px;
     padding: 89px 0 55px;
   }
+
+  .header__link {
+    width: 64px;
+    height: 40px;
+  }
 }
