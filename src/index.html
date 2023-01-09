@@ -8,7 +8,35 @@
   <title>Frontend Mentor | News homepage</title>
 </head>
 <body class="page">
+  <header class="header">
+    <a class="header__link">
+      <img class="header__logo" src="./images/logo.svg" alt="W. logo" width="45" height="28">
+    </a>
+    <nav class="header__navigation navigation">
+      <button class="navigation__button" type="button">
+        <span class="visually-hidden">Toggle menu</span>
+      </button>
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">New</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Popular</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Trending</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Categories</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <main class="page__main">
+    <h1 class="visually-hidden">News homepage</h1>
     <div class="page__container">
       <article class="article">
         <h2 class="article__title">The Bright Future of Web 3.0?</h2>
@@ -76,5 +104,6 @@
       </ol>
     </section>
   </main>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>
