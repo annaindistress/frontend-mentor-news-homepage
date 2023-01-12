@@ -13,8 +13,9 @@
 }
 
 .navigation--open .navigation__button {
-  top: -2px;
-  right: -2px;
+  position: fixed;
+  top: 27px;
+  right: 20px;
   background-image: url('../images/icon-menu-close.svg');
   background-size: 30px;
 }
@@ -52,10 +53,11 @@
 @media (max-width: 1199px) {
 
   .navigation__list {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -256px;
     bottom: 0;
+    z-index: 1;
     width: 256px;
     padding: 144px 24px;
     background-color: var(--almost-white);
